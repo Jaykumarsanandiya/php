@@ -7,13 +7,13 @@
 </head>
 <body>
     <h1> Aaasan php</h1>
-    <form action=" https://jaykumarsanandiya.github.io/php/index.php" method="POST">
+    <form action="https://jaykumarsanandiya.github.io/php/index.php" method="POST">
         <p> Name:<input type="text" name="naam" >
         </p>
         <p> Book:<input type="text" name="book" >
         </p>
         <input type="submit" name="register" value="register">
-        <a href=" https://jaykumarsanandiya.github.io/php/display.php" >
+        <a href="https://jaykumarsanandiya.github.io/php/display.php" >
         <input type="button" name="check" value="check"> </a>
     </form>
     
@@ -21,7 +21,7 @@
 </html>
 
 <?php
-include " https://jaykumarsanandiya.github.io/php/connect.php" ;
+include "https://jaykumarsanandiya.github.io/php/connect.php" ;
 
 if(isset($_POST['register'])){
     $naam=$_POST['naam'] ;
