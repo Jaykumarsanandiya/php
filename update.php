@@ -7,7 +7,7 @@
 </head>
 
 <?php
-include "connect.php" ;
+include "https://jaykumarsanandiya.github.io/php/connect.php" ;
 
 $id_before_update = $_GET['idsame'];
 
@@ -46,7 +46,7 @@ $qurry_after_update= "UPDATE `aasan` set  naam='$naam',book='$book'
         <p> Book:<input type="text" name="book" value="<?php echo $arrdata[2]?>">
         </p>
         <input type="submit" name="Update" value="Update">
-        <a href="http://localhost/aaasan/display.php" >
+        <a href="https://jaykumarsanandiya.github.io/php/display.php" >
         <input type="button" name="check" value="check"> </a>
     </form>
     
